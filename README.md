@@ -19,6 +19,8 @@ source venv/bin/activate
 
 - pip install -r requirements.txt
 
-4. Chạy app:
+4. Tạo local_models và chạy trong folder: git clone https://huggingface.co/jinaai/jina-embeddings-v3
+
+5. Chạy app:
 
 - uvicorn main:app --host 0.0.0.0 --port 8000 --reload
